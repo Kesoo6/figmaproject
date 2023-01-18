@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color:#090A26;
+}
+nav{
+    width:100%;
+    background-image: url(../cyberpunk-neon-girl_1565054393\ 4.png);
+    background-position: center;
+    background-size: cover;
+}
+.menu-bar{
+    padding-top:35px;
+    display: flex;
+    
+}
+.menu-bar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+width:100%;
+}
+.menu-bar ul li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+.menu-bar ul li a:hover{
+    color:#e6e6e6;
+}
+.menu-bar ul li .button{
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #FFFFFF;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.menu-bar ul li .button:hover{
+    color: #000000;
+    background-color:#e6e6e6 ;
+    
+}
+
+.menu-bar ul img{
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+nav .paragraph{
+    padding-top: 150px;
+    padding-left: 800px;
+    padding-right:30px;
+    color:#FFFFFF;
+    font-weight: 400;
+font-size: 18px;
+line-height: 39px;
+}
+ nav .button1{
+    margin-top: 150px;
+    margin-left: 800px;
+    margin-right:30px;
+    text-decoration: none;
+    color:#FFFFFF;
+    background-color: #7E10B3;
+    padding-top: 13px;
+    padding-bottom:13px;
+    padding-left: 30px;
+    padding-right:30px;
+ }
+
+ .nav-btn{
+    margin-top: 50px;
+    padding-bottom:150px;
+ }
+
+ .question{
+    font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color:#FFFFFF;
+text-transform: uppercase;
+padding-top: 130px;
+padding-bottom: 90px;
+padding-left: 100px;
+ }
+ 
+ article{
+    background-image: url(../96398-neon-cyberpunk-artist-artwork-digital-art-hd-4k-artstation\ 1.png);
+    background-position: center;
+    background-size: cover;
+ }
+
+ article .paragraph1{
+    padding-left:100px;
+    padding-right: 800px;
+    color:white;
+    font-weight: 400;
+font-size: 18px;
+line-height: 39px;
+padding-top: 190px;
+ }
+
+article .nav-btn1 .button2{
+    text-decoration: none;
+    color:#FFFFFF;
+    background-color: #7E10B3;
+    padding-top: 13px;
+    padding-bottom:13px;
+    padding-left: 30px;
+    padding-right:30px;
+    
+}
+.nav-btn1{
+    margin-top: 50px;
+    padding-bottom: 150px;
+    margin-left:100px;
+}
+
+footer{
+    width:100%;
+    border: 1px solid #502356;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+footer .section1{
+    padding-left:120px;
+
+}
+
+.section1 p{
+    font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+
+}
+.social-media{
+    padding-top:35px;
+}
+.social-media img{
+    padding-left:25px;
+    padding-right:25px;
+    cursor: pointer;
+}
+
+.section ul li{
+    list-style: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.section ul li:hover{
+color: #E15CF2;
+}
+
+.section ul .first{
+    font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+}
+
+.section ul .first:hover{
+    color:#FFFFFF;
+    cursor:auto;
+}
+
+.sections{
+    display:flex;
+    
+}
+.ss{
+    display: flex;
+    margin-left: 100px;
+    
+}
+.section{
+    padding-left:70px;
+    padding-right:70px;
+    
+}
+
+.terms{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:30px;
+    padding-bottom: 30px;
+}
+.terms p{
+    color: #FFFFFF;
+    font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+}
+
+.tt{
+    margin-left:10px;
+}
+
+.termss{
+    display: flex;
+    margin-right: 10px;
+}
+
+.termss p{
+    padding-left:10px;
+padding-right: 10px;
+}
+
+@media(max-width:650px){
+
+    .menu-bar ul li .button{
+        background-color: #ffffff00;
+        padding: 0;
+        color:white;
+    }
+}
+
+@media(max-width:950px){
+    .ss{
+        flex-wrap:wrap;
+        margin:auto;
+    }
+
+    .sections{
+        flex-wrap:wrap;
+    }
+
+    .section{
+        padding:0;
+        padding-left:10px;
+        padding-right:10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .section1{
+        padding:0;
+        padding-right: 70px;
+        text-align:center;
+    }
+}
+
+@media(max-width:500px){
+    .terms{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    nav .paragraph{
+        font-size:15px;
+        
+    }
+
+    article .paragraph1{
+        font-size:15px;
+        
+    }
+
+    .question{
+        padding:0;
+        text-align: center;
+    }
+
+}
+@media(max-width:350px){
+
+    .ss{
+        padding-left:50px;
+    }
+}
+
+@media(max-width:1200px){
+    nav .paragraph{
+        padding:0;
+        margin: auto;
+        padding-top: 100px;
+    }
+    
+    nav .nav-btn .button1{
+        margin:0 auto;
+
+    }
+
+    article .paragraph1{
+        padding:0;
+        margin: auto;
+        padding-top: 100px;
+    }
+    
+    article .nav-btn1 .button2{
+        margin:0 auto;
+
+    }
+}
